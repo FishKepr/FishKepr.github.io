@@ -1,0 +1,92 @@
+/* Note to students: Some properties are given to you to fill out,
+others you can modify as they stand, and if you have time,
+there are definitely some properties you should add!*/
+
+    html {
+      height: 100%;
+    }
+    body {
+      background:
+         /*url(picture1.png)    /* image */*/
+         top center / 100px 100px /* position / size */
+         repeat                /* repeat */
+         fixed                    /* attachment */
+         padding-box              /* origin */
+         content-box              /* clip */
+         red;                     /* color */
+    }
+
+    header {
+        background-color: purple;
+        padding:20px;
+        border: 10px solid #000000;
+        border-radius: 20px;
+        font-size: 28px;
+        display: block;
+        width: 790px;
+    }
+    h1 {
+        text-align: center;
+    }
+    p {
+      color: blue;
+    }
+    .hawk {
+      background-color: #bbbbbb;
+      align-items: baseline;
+    }
+    .pointdefiance {
+      display: flex;
+      background-color: #864BFF;
+      flex-direction:  row-reverse;
+    }
+
+    .woodland {
+    background-color: yellow;
+    animation: pulse 5s infinite;
+    animation-iteration-count: 3;
+    }
+    @keyframes pulse {
+  0% {
+    background-color: #001F3F;
+  }
+  100% {
+    background-color: #FF4136;
+  }
+    nav {
+        line-height:;
+        background-color:;
+        width:125px;
+        display: inline-block;
+        vertical-align: top;
+    }
+    nav ul {
+        list-style-type: none;
+    }
+    a {
+        color: ;
+    }
+    img {
+      align-items: center;
+    }
+    section {
+        width: 516px;
+        display: inline-block;
+    }
+    aside {
+      width: 125px;
+      display: inline-block;
+      vertical-align: top;
+      background-color:;
+      font-size: ;
+    }
+    aside ul {
+        list-style-type: none;
+    }
+    footer {
+        width: 790px;
+        background-color:;
+        text-align:;
+        padding:5px;
+        display: block;
+    }
